@@ -51,6 +51,7 @@ public class TestLambda3 {
     // 需求：用于将字符串处理成大写
     public String strHandler(String str, MyFunction mf) {
         return mf.getVAlue(str);
+
     }
 
 
