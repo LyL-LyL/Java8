@@ -1,4 +1,4 @@
-package day01.liuyl;
+package com.java8;
 
 import org.junit.Test;
 
