@@ -11,4 +11,5 @@ public class FilterEmployeeBySalary implements MyPredicate<Employee> {
         return employee.getSalary() >= 5000;
     }
 
+
 }

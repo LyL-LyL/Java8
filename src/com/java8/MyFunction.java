@@ -10,4 +10,5 @@ public interface MyFunction {
     public String getVAlue(String str);
 
 
+
 }
