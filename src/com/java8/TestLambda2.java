@@ -11,7 +11,7 @@ import java.util.function.Consumer;
  *
  *
  * 左侧：Lambda表达式的【参数列表】，对应【抽象方法的参数列表】
- * 右侧：Lambda表达式中所需要执行的功能，Lambda体。
+ * 右侧：Lambda表达式中所需要执行的功能，Lambda体。对传入的参数要进行的处理方式
  *
  * 若此抽象方法是：
  *
@@ -67,7 +67,6 @@ public class TestLambda2 {
         r1.run();
     }
 
-
     /**
      * 有一个参数，无返回值。若只有一个参数，小括号可以不写
      */
@@ -97,7 +96,6 @@ public class TestLambda2 {
         Comparator<Integer> com = (x, y) -> Integer.compare(3, 5);
     }
 
-
     /**
      * 需求：对一个数进行运算。用Lambda表达式需要先有一个函数接口。
      */
@@ -114,8 +112,6 @@ public class TestLambda2 {
     public Integer operation(Integer num, MyFun myFun) {
         return myFun.getValue(num);
     }
-
-
 
 }
 
