@@ -59,7 +59,6 @@ public class TestLambda {
 //        return eps;
 //    }
 
-
     // 优化方式一：策略设计模式。获取年龄大大于35岁的员工信息、工资大于5000，接口+实现类
     @Test
     public void test04() {
@@ -84,7 +83,6 @@ public class TestLambda {
         }
         return emps;
     }
-
 
     // 优化方式二：匿名内部类
     @Test
@@ -126,7 +124,5 @@ public class TestLambda {
                 .map(Employee::getName) // 获取员工姓名
                 .forEach(System.out::println);
     }
-
-
 
 }
