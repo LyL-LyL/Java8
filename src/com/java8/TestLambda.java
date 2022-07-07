@@ -79,6 +79,7 @@ public class TestLambda {
         for (Employee employee : list) {
             if (mp.test(employee)) {
                 emps.add(employee);
+
             }
         }
         return emps;
